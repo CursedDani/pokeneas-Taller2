@@ -1,4 +1,3 @@
-// Pokeneas data - Pokémon reales nacidos en Antioquia
 const pokeneas = [
     {
         id: 25,
