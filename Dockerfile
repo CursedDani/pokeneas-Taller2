@@ -9,8 +9,6 @@ COPY . .
 
 ENV NODE_ENV=production
 
-USER root
+EXPOSE 8080
 
-EXPOSE 80
-
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
