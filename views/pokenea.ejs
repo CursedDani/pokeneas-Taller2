@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Pokenea - <%= pokenea.nombre %>
+    </title>
+</head>
+
+<body>
+    <h1>Pokenea: <%= pokenea.nombre %>
+    </h1>
+
+    <img src="<%= pokenea.imagen %>" alt="<%= pokenea.nombre %>" width="300">
+
+    <h2>Frase Filosófica:</h2>
+    <p>
+        <%= pokenea.fraseFilosofica %>
+    </p>
+
+    <h3>Container ID:</h3>
+    <p>
+        <%= containerId %>
+    </p>
+
+    <br>
+    <a href="/api/pokenea/view">Ver otro Pokenea</a>
+</body>
+
+</html>
